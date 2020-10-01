@@ -1,0 +1,195 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
+
+body{font-family: 'Roboto Mono', monospace;
+background-color:white;
+}
+
+#container{
+    width:1200px;
+    margin:0 auto;
+}
+
+
+.tbbuttons{
+text-align:center;
+
+} 
+
+
+
+.btn{
+    display:inline-block;
+    margin:2.5rem;
+    padding:.75rem;
+    font-size:1.5rem;
+    width: 150px;
+    border-radius: 1.5rem;
+    text-decoration:none;
+}
+
+.planbutton{background-color:#FF764E;
+color:white;}
+.learnbutton{background-color:#5ED3EB;
+color:white;}
+.getbutton{background-color:#FFCD69;
+color:white;}
+
+#content-m{
+    margin:0px 50px;
+}
+
+#headerpic{
+    width:280px;
+    height:280px;
+    border-radius:50%;
+    display:inline-block;
+
+}
+#yparkguide{
+    font-family:'Chelsea Market', cursive;
+    display:inline-block;
+    text-align:center;
+    font-size:4rem
+}
+
+
+
+#notjust{
+    background-color:#DDB9A3;
+    color: white;
+    padding:20px 40px;
+    font-size:1.2rem;
+    position:relative;
+    top: -230px;
+    text-align:center;
+    
+}
+
+#headerspace{
+    text-align:center;
+    position:relative;
+    bottom:250px;
+    left:150px;
+    line-height:5rem;
+    
+}
+#headerspace p{
+    font-size:1.4rem;   
+}
+#alwaysopen{
+    display:inline-block;
+    width: 400px;
+    line-height:1.75rem;  
+}
+#fireicon{
+    width: 140px;
+    height:140px;
+    text-align:center;
+    display:block;
+    margin:auto;
+}
+#firesection {
+    position:relative;
+    bottom:200px;
+    
+
+}
+
+#firesection p {
+    font-size:.9rem;
+    text-align:center;
+    display:block;
+    width:18rem;
+    margin:20px auto;
+    }
+#firebold{
+ font-weight:900;
+}
+
+#rvicon{
+    width: 140px;  
+    height:140px;
+    text-align:center;
+    display:block;
+    margin:auto;
+}
+
+#campersection {
+    position:relative;
+    bottom:150px;
+    }
+#campersection p{
+    font-size:.9rem;
+    text-align:center;
+    display:block;
+    width:18rem;
+    margin:20px auto;
+}
+
+#camperbold{
+    font-weight:900;
+}
+
+#footerimg {
+    object-fit:cover;
+
+}
+#footersection{
+    overflow:hidden;
+    height:335px;
+}
+
+
+  
+
+
+
